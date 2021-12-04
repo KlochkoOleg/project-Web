@@ -1,199 +1,187 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ru">
+
 <head>
-    <link rel="stylesheet" href="./css/styles.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffee Co</title>
-    <link rel="icon" href=".\img\log.svg" type="image/x-icon">
+  <meta charset="utf-8">
+  <title>Coffee Co</title>
+  <link rel="icon" href=".\img\log.svg" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script defer src="js/bootstrap.bundle.min.js"></script>
 </head>
-    <body>
-        <div class="header">
-            <div class="hed">
-                <div class="greedy repeatgready">
-                    <img class="telephone" src="img/phone.svg" alt="">
-                    <p class="numbers">069955998</p>
-                 </div>
-                 <div class="greedy2 repeatgready">
-                        <img class="telephone" src="img/phone.svg" alt="">
-                        <p class="numbers">068777998</p>
-                 </div>
-                 <div class="greedy3 repeatgready">
-                        <img class="telephone" src="img/phone.svg" alt="">
-                        <p class="numbers">060999111</p>
-                 </div>
-                 <div class="greedy4 repeatgready">
-                        <img class src="img/location 22.png" alt="">
-                        <div class="textloc numbers">
-                            <p>Бельцы <br>
-                            09:00-24:00</p>
-                       </div>
-                 </div>
-                 <div class="greedy5 repeatgready">
-                      <img class src="img/location 22.png" alt="">
-                      <div class="textloc numbers">
-                            <p>Кишинев <br>
-                            08:00-23:00</p>
-                      </div>
-                 </div>
-                 <div class="greedy6 repeatgready">
-                       <img src="img/location 22.png" alt="">
-                       <div class="textlc numbers">
-                            <p>Единцы <br>
-                            07:00-20:00</p>
-                       </div>
-                 </div>
-             </div>
-             <div class="line">
-             </div>
-            <div class="header2">
-                    <div class>
-                        <img class="corner" src="img/logo.png" alt="">
-                    </div>
-                    <div class="unitmiddle">
-                    <p><a class="nav frm" href="#aboutus">О нас</a></p>
-                        <div class="lines"></div>
-                   </div>
-                   <div class="unitmiddle ">
-                        <p><a class="nav frm" href="#promo">Акции</a></p>
-                        <div class="lines"></div>
-                   </div>
-                   <div class="unitmiddle ">
-                        <p><a class="nav frm" href="#news">Новости</a></p>
-                        <div class="lines"></div>
-                   </div>
-                   <div class="unitmiddle">
-                         <p><a class="nav frm" href="#carier">Карьера</a></p>
-                         <div class="lines"></div>
-                   </div>
-                   <div class="unitmiddle ">
-                    <p><a class="nav frm" href="#togo">Доставка</a></p>
-                    <div class="lines"></div>
-                </div>
-           </div>
-           <div class="header3">
-                <img class="header4" src="./img/Group 1.svg" alt="">
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light w-100 ">
+    <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item headalign">
+          <a class="nav-link" href="#aboutus">О нас |</a>
+        </li>
+        <li class="nav-item headalign">
+          <a class="nav-link" href="#promo">Акции |</a>
+        </li>
+        <li class="nav-item headalign">
+          <a class="nav-link" href="#livrare">Доставка |</a>
+        </li>
+        <li class="nav-item headalign">
+          <a class="nav-link" href="#carier">Карьера |</a>
+        </li>
+        <li class="nav-item headalign">
+          <a class="nav-link" href="#news">Новости |</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav align">
+        <li class="nav-item headalign">
+          <img class="mar" src="img/location 22.png" alt="">
+        </li>
+        <li class="nav-item textloc">
+          <p>Бельцы <br>
+            09:00-24:00</p>
+        </li>
+        <li class="nav-item headalign">
+          <img class="mar" src="img/location 22.png" alt="">
+        </li>
+        <li class="nav-item textloc">
+          <p>Кишинев <br>
+            08:00-23:00</p>
+        </li>
+        <li class="nav-item headalign">
+          <img class="mar" src="img/location 22.png" alt="">
+        </li>
+        <li class="nav-item textloc">
+          <p>Единцы <br>
+            07:00-20:00</p>
+        </li>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  </div>
+  <div id="carouselExampleControls" class="carousel slide w-100" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="imgc" src="./img/box3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img class="imgc" src="./img/box2.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="btn-group btn-group-justified  w-100 ab" role="group">
+    <div class="btn-group w-100" role="group">
+      <a href="hot.html" class="btn btn-warning active" role="button" aria-pressed="true">Горячие напитки</a>
+      <div class="lin"></div>
+    </div>
+    <div class="btn-group w-100" role="group">
+      <a href="cold.html" class="btn btn-warning active" role="button" aria-pressed="true">Холодные напитки</a>
+      <div class="lin"></div>
+    </div>
+    <div class="btn-group w-100" role="group">
+      <a href="alcdrinks.html" class="btn btn-warning active" role="button" aria-pressed="true">Алкогольные напитки</a>
+      <div class="lin"></div>
+    </div>
+    <div class="btn-group w-100" role="group">
+      <a href="desserts.html" class="btn btn-warning active" role="button" aria-pressed="true">Дессерты</a>
+    </div>
+  </div>
+  <div class="alignbody">
+    <div class="header-h1">
+      <a name="aboutus"></a>
+      <h1>О нас</h1>
+    </div>
+    <p class="textus"><i>Каждый прожитый миг ценен. Мы стараемся перенять многовековой опыт французских мастеров и
+        внести в него что-то новое, чтобы дарить улыбки и настроение нашим гостям, даже если на посещение кофейни у них
+        совсем мало времени.Наша особенность в том, что мы делаем продукт для людей. Мы не художники, мы — ремесленники,
+        и посвящаем себя каждодневному труду. Все, что мы предлагаем нашим гостям, делается нашими руками. И качеству
+        сырья, и вкусу конечного продукта, и другим деталям мы уделяем огромное внимание. Для нас наша работа – это
+        призвание.</i></p>
+    <img src="img/coffe cup.png" class="rounded mx-auto d-block" alt="">
+  </div>
+  <div class="alignbody">
+    <a name="promo"></a>
+    <div class="header-h1">
+      <h1>Акции</h1>
+    </div>
+    <img src="img/promo.png" class="rounded mx-auto d-block w-100" alt="">
+  </div>
+  <div class="alignbody">
+    <a name="news"></a>
+    <div class="header-h1">
+      <h1>Новости</h1>
+    </div>
+    <img src="img/news.png" class="rounded mx-auto d-block w-100" alt="">
+  </div>
+  <div class="alignbody">
+    <a name="carier"></a>
+    <div class="header-h1">
+      <h1>Карьера</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="row">
+            <div class="col-12">
+              <img src="./img/carier.png" alt="" style="width: 100%">
+            </div>
           </div>
-          <div class="header4">
-                <div class="inter">
-                    <a href="hot.html#hotd"><p class="frm nav">Горячие напитки</p></a>
-                </div>
-                <div class="lin"></div>
-                <div class="inter">
-                    <a href="cold.html#cold"><p class="frm">Холодные напитки</p></a>
-                </div>
-                <div class="lin"></div>
-                <div class="inter">
-                    <a href="alc.html#alcd"><p class="frm">Алкогольные напитки</p></a>
-                </div>
-                <div class="lin"></div>
-                <div class="inter">
-                    <a href="dessert.html#desd"><p class="frm">Дессерты</p> </a>
-                </div>
-          </div>
-     </div>
-    <div>
-        <div class="star">
-            <a class="nav" name="aboutus"></a>
-            <div class="st">
-                <img class="imgstar" src="img/star.png" alt="">
-                <p class="interstar">О нас</p>
-            </div>
-            <div class="aligns">
-                <p>Каждый прожитый миг ценен. Мы стараемся перенять многовековой опыт французских мастеров и внести в него что-то новое, чтобы дарить улыбки и настроение нашим гостям, даже если на посещение кофейни у них совсем мало времени.Наша особенность в том, что мы делаем продукт для людей. Мы не художники, мы — ремесленники, и посвящаем себя каждодневному труду. Все, что мы предлагаем нашим гостям, делается нашими руками. И качеству сырья, и вкусу конечного продукта, и другим деталям мы уделяем огромное внимание. Для нас наша работа – это призвание.</p>
-            </div>
-            <div class="coffee">
-                <img src="img/coffe cup.png" alt="">
-            </div>
         </div>
-            <div class="star">
-                <a class="nav" name="promo"></a>
-                <div class="st">
-                    <img class="imgstar" src="img/star.png" alt="">
-                     <p class="interstar">Акции</p>
-                </div>
-                <div>
-                    <img src="img/promo.png" alt="" width="100%">
-                </div>
-            </div>
-            <div class="star">
-                <a class="nav" name="news"></a>
-                <div class="st">
-                    <img class="imgstar" src="img/star.png" alt="">
-                    <p class="interstar">Новости</p>
-                </div>
-            </div>
-            <div class="news">
-                <img class="news" src="img/news.png" alt="">
-            </div>
-            <div class="star">
-                <a class="nav" name="carier"></a>
-                <div class="st">
-                    <img class="imgstar" src="img/star.png" alt="">
-                    <p class="interstar">Карьера</p>
-               </div>
-               <div>
-                 <div class="carier">
-                        <img src="img/carier.png" alt="">
-                        <p class="about">
-                            График работы: <br>
-                            - понедельник-пятница:<br>
-                            - 07:30-14:00 (первая смена);<br>
-                            - 14:00-22:00 (вторая смена);<br>
-                            - суббота-воскресенье:<br>
-                            - 08:00-13:00 (первая смена);<br>
-                            - 13:00-21:00 (вторая смена).Заработная плата: 500 леев в день + % с продаж.<br>
-                            <br>
-                            Требования:<br>
-                            - ответственное отношение к работе, общительность, умение расположить к себе клиента, приятный внешний вид;<br>
-                            - владение русским и румынским языками.</p>
-                 </div>
-               </div>
-            </div>
-            <div class="star">
-                <a class="nav" name="togo"></a>
-                <div class="st">
-                    <img class="imgstar" src="img/star.png" alt="">
-                    <p class="interstar">Доставка</p>
-                </div>
-                <div>
-                    <img src="img/livrare2.png" alt="" width="100%">
-                </div>
-            </div>
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <p class="carier">
+            <strong>График работы:</strong><br>
+            - понедельник-пятница:<br>
+            - 07:30-14:00 (первая смена);<br>
+            - 14:00-22:00 (вторая смена);<br>
+            - суббота-воскресенье:<br>
+            - 08:00-13:00 (первая смена);<br>
+            - 13:00-21:00 (вторая смена).Заработная плата: 500 леев в день + % с продаж.<br>
+            <br>
+            <strong>Требования:</strong><br>
+            - ответственное отношение к работе, общительность, умение расположить к себе клиента, приятный внешний
+            вид;<br>
+            - владение русским и румынским языками.
+          </p>
         </div>
-        <div class="footer">
-            <div class="space">
-            </div>
-            <div>
-            <iframe src="https://www.google.com/maps/d/embed?mid=1qjvCikpOAFsncTKG2atYItO9Q2Js4f0O" width="100%" height="480"></iframe>
-            </div>
-            <div class="space2">
-                <div class="white">
-                    <p>    Адреса: <br><br>
-                    г. Кишинев <br>
-                    ул. Stefan cel Mare 13 <br>
-                    <br>
-                    г. Бельцы <br>
-                    ул.М.Sadoveanu 35 <br>
-                    <br>
-                    г. Единцы <br>
-                    ул.М.Sadoveanu 39 <br>
-                    <br>
-                    *Для ПРЕДЛОЖЕНИЙ, жалоб звоните: 068672776 <br>
-                    <br>
-                    *Доставка - 022 999111, 078999111, 069991119.Chișinău</p> <br>
-                    <img src="img/livrare.png" alt="" width="150px">
-                </div>
-                <div class="logo">  <img class="corner" src="img/logo.png" alt=""> </div>
-             </div>
-             <div class="space3">
-                <div><p class="rights">Coffee Co -Все права защищены</p></div>
-                <div class="facebook">
-                    <div><img class src="img/facebook.png" alt="" height="30px"></div> 
-                    <div><img class src="img/inst.png" alt="" height="30px" ></div> 
-               </div>
-           </div>
-        </div>
-    </body>
+      </div>
+    </div>
+    <div class="alignbody sp">
+      <a name="livrare"></a>
+      <div class="header-h1">
+        <h1>Доставка</h1>
+      </div>
+      <img src="img/livrare2.png" class="rounded mx-auto d-block w-100 " alt="">
+    </div>
+    <div class="footer">
+      <div class="space">
+      </div>
+      <div class="spg">
+        <iframe src="https://www.google.com/maps/d/embed?mid=1qjvCikpOAFsncTKG2atYItO9Q2Js4f0O" width="100%"
+          height="480"></iframe>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <footer class="text-center text-white fixed-bottom" style="background-color: #21081a;">
+    <div class="container p-2"></div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://coffeeco.md/">CoffeeCo.md</a>
+    </div>
+  </footer>
+</body>
+
 </html>
